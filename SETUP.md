@@ -14,7 +14,7 @@ In GitHub Settings > Emails, add and verify the intended Gmail address if it is 
 
 Local `.owner/owner.json` records the owner's requested email but cannot configure GitHub notification delivery. It is ignored by Git and must remain private. No SMTP password, Gmail app password, mail service, or email account connection is needed for GitHub's own notifications.
 
-After publication, submit a clearly marked test addon issue through the form, check that the attachment downloads, and verify receipt in the intended inbox. Close the test issue. Email delivery is not verified until the owner confirms receiving that message.
+After publication, have another GitHub account submit a clearly marked test addon issue through the form, check that the attachment downloads, and verify receipt in the intended inbox. GitHub generally does not email you for your own activity. Close the test issue. Email delivery is not verified until the owner confirms receiving that message.
 
 GitHub documentation:
 - https://docs.github.com/en/subscriptions-and-notifications/get-started/configuring-notifications
