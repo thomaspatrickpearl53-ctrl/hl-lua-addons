@@ -1,0 +1,72 @@
+name: Submit an addon
+description: Submit a Half-Life Lua addon ZIP for review and possible publication
+title: "[Addon submission] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submissions are public. Do not include passwords, tokens or private information.
+        A submission is not an approved download. The owner will inspect and test it first.
+  - type: input
+    id: addon_name
+    attributes:
+      label: Addon name
+    validations:
+      required: true
+  - type: input
+    id: addon_id
+    attributes:
+      label: Addon folder ID
+      placeholder: my_weapon
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Weapon (SWEP)
+        - Entity or NPC
+        - Gameplay
+        - UI
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description and dependencies
+      description: Explain the addon, required Half-Life Lua version, dependencies and controls.
+    validations:
+      required: true
+  - type: textarea
+    id: archive
+    attributes:
+      label: Addon ZIP
+      description: Drag your ZIP into this field and wait for the upload to finish. It must contain addons/<addon_id>/addon.json and Lua files. Game assets, if needed, go under models/, sound/, sprites/, gfx/ or resource/.
+    validations:
+      required: true
+  - type: textarea
+    id: testing
+    attributes:
+      label: Testing and screenshots
+      description: Describe the maps/modes you tested. Attach screenshots if available.
+    validations:
+      required: true
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: Distribution permission
+      options:
+        - label: I own or have permission to redistribute every file in this ZIP and permit hosting this addon on this repository.
+          required: true
+        - label: I included a LICENSE.txt describing how these files may be used and distributed.
+          required: true
+
