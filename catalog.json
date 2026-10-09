@@ -1,1 +1,17 @@
-{"schema_version":1,"game":"Half-Life: Lua","addons":[]}
+{
+  "schema_version": 1,
+  "game": "Half-Life: Lua",
+  "addons": [
+    {
+      "id": "cof_glock",
+      "name": "Cry of Fear Glock",
+      "author": "Half-Life: Lua (model and sounds: Team Psykskallar, Cry of Fear)",
+      "description": "Glock 19 with slide lock, empty reloads and iron sights. Models and sounds are inside this addon. Requires Half-Life: Lua addon asset mounting. !give weapon_cof_glock",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/cof_glock-v1.0.0/cof_glock-v1.0.0.zip",
+      "sha256": "34a07e458b88bdecacf53897531d38c96fd00d0fdd0f43ded079e5aae6e705c1",
+      "size_bytes": 878102
+    }
+  ]
+}
