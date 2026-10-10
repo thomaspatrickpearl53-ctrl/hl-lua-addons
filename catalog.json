@@ -12,6 +12,19 @@
       "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/cof_glock-v1.0.0/cof_glock-v1.0.0.zip",
       "sha256": "34a07e458b88bdecacf53897531d38c96fd00d0fdd0f43ded079e5aae6e705c1",
       "size_bytes": 878102
+    },
+    {
+      "id": "cof_vehicles",
+      "name": "Cry of Fear vehicle pack",
+      "author": "Half-Life: Lua",
+      "description": "Aud, Vari, Foretag, police car and fire engine, with matching physical wheels. Imports models from your local Cry of Fear installation.",
+      "version": "1.0.0",
+      "dependencies": [
+        "sandbox"
+      ],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/cof_vehicles-v1.0.0/cof_vehicles-v1.0.0.zip",
+      "sha256": "bff0dd7e895cba37b85bf9fc789e7d1b43b145b7c190265da58a3dddbaad3529",
+      "size_bytes": 2756090
     }
   ]
 }
