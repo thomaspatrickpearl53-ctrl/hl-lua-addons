@@ -25,6 +25,19 @@
       "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/cof_vehicles-v1.0.0/cof_vehicles-v1.0.0.zip",
       "sha256": "bff0dd7e895cba37b85bf9fc789e7d1b43b145b7c190265da58a3dddbaad3529",
       "size_bytes": 2756090
+    },
+    {
+      "id": "detailed_van",
+      "name": "Fieldrunner utility van",
+      "author": "Half-Life: Lua",
+      "description": "An original six-seat van with a detailed cabin, custom wheels, suspension, running and brake lamps, and a two-tone horn.",
+      "version": "1.0.0",
+      "dependencies": [
+        "sandbox"
+      ],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/detailed_van-v1.0.0/detailed_van-v1.0.0.zip",
+      "sha256": "c2258c8b82acc8b28b0e3b403e64f70ecd434cc27bed9883d4dc991e86ecfe68",
+      "size_bytes": 326588
     }
   ]
 }
