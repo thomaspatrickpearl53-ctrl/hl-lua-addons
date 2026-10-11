@@ -62,6 +62,17 @@
       "size_bytes": 6486
     },
     {
+      "id": "lua_tanks",
+      "name": "Lua tank base",
+      "author": "Half-Life: Lua",
+      "description": "A base for tracked vehicles: raycast suspension on every road wheel, skid steering and pivot turns on a native rigid body, a turret and gun that follow your aim, moving tread links, driver and gunner seats, main and coaxial guns, armour, and a pop-top wreck. Tanks are separate addons.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/lua_tanks-v1.0.0/lua_tanks-v1.0.0.zip",
+      "sha256": "7bb03cb05dd03cf037e0a63f6fda9c6cf0d7e29e3f33dd041d99d97be6f20230",
+      "size_bytes": 17885
+    },
+    {
       "id": "meadow_tower_night",
       "name": "Meadow Tower: Night",
       "author": "Half-Life: Lua",
