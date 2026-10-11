@@ -60,6 +60,17 @@
       "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/hl2_flashlight-v1.0.0/hl2_flashlight-v1.0.0.zip",
       "sha256": "da46a03abb8ceb8b0940778a14c98e9d0c9abbd5a304270b9792e7af2c8530c0",
       "size_bytes": 6458
+    },
+    {
+      "id": "realistic_graphics",
+      "name": "Realistic Graphics",
+      "author": "Half-Life: Lua",
+      "description": "One screen shader for a more modern look: ambient occlusion, weapon contact shadows, sun rays, bloom, fog and filmic colour, with presets and quality levels.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/realistic_graphics-v1.0.0/realistic_graphics-v1.0.0.zip",
+      "sha256": "059fbe51877b2a571fc7fc549137f16db502ec9cdf16b2e22e48c143de9f2a4b",
+      "size_bytes": 10742
     }
   ]
 }
