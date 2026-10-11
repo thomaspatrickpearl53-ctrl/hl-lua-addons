@@ -62,6 +62,17 @@
       "size_bytes": 6458
     },
     {
+      "id": "meadow_tower_night",
+      "name": "Meadow Tower: Night",
+      "author": "Half-Life: Lua",
+      "description": "A night version of Meadow Tower: night sky and moonlight, a lit tower with deck lanterns, beam lamps and floodlights, brighter path lamps, and crickets and wind. The elevator, bunker, HEV station, observation room and secret level all work. Start a game > meadow_tower_night.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/meadow_tower_night-v1.0.0/meadow_tower_night-v1.0.0.zip",
+      "sha256": "647fb6c5a5ae3c64a826f3b7c83dfe38ca8593c7eb6324acb5ceeeffd56f26e6",
+      "size_bytes": 1220280
+    },
+    {
       "id": "realistic_graphics",
       "name": "Realistic Graphics",
       "author": "Half-Life: Lua",
