@@ -49,6 +49,17 @@
       "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/firstperson_body-v1.0.0/firstperson_body-v1.0.0.zip",
       "sha256": "2eb2023bc9d73179579b167a8cfa5a5fd5b6ba73f84f19b0a50e902b42de03a5",
       "size_bytes": 3795
+    },
+    {
+      "id": "hl2_flashlight",
+      "name": "Half-Life 2 flashlight",
+      "author": "Half-Life: Lua",
+      "description": "Replaces the flashlight's round glow with a Half-Life 2 style spotlight: a sharp cone with a bright centre and soft rings, shading that follows the surfaces, shadows, distance falloff and a slight lag as you turn. Settings in lua_settings.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/hl2_flashlight-v1.0.0/hl2_flashlight-v1.0.0.zip",
+      "sha256": "da46a03abb8ceb8b0940778a14c98e9d0c9abbd5a304270b9792e7af2c8530c0",
+      "size_bytes": 6458
     }
   ]
 }
