@@ -42,4 +42,4 @@ python tools/publish_approved.py --publish --watch
 
 Only ZIPs that have not changed for at least 20 seconds are considered. Keep the publisher running on your computer; it is not installed as a background service. Exit with Ctrl+C. Use a clean, up-to-date repository checkout on main. Each release is tagged `<id>-v<version>` and published before its catalog entry is pushed. On a catalog push failure, publication stops with the ZIP retained for retry. The script never replaces an existing release asset with different bytes.
 
-GitHub release notifications are separate from submission emails. A future in-game browser will read the public catalog, and its download/enable/disable/remove code will be added to the game later.
+GitHub release notifications are separate from submission emails. The game has no mod menu; players download addons from the README. After publishing, add a row for the addon to the table in README.md. `catalog.json` remains the publisher's record of released versions and checksums.

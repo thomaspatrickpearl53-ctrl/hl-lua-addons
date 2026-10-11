@@ -1,39 +1,52 @@
 # Half-Life: Lua Addons
 
-A reviewed community addon library for Half-Life: Lua. This is a catalog and download host for addons, not the game itself. Garry's Mod addons are not automatically compatible.
+Addons for Half-Life: Lua. Download the ones you want and put them in your game's addons folder yourself. There is no in-game mod menu.
 
-## Submit an addon
+## Addons
 
-Open [Submit an addon](https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/issues/new?template=submit-addon.yml), sign in to GitHub, complete the form and attach a ZIP. Submissions and attachments are public. New submissions do not appear in the approved catalog until the owner reviews and publishes them.
+| Addon | What it is | Needs | Download |
+| --- | --- | --- | --- |
+| Cry of Fear Glock 1.0.0 | Glock 19 with slide lock, empty reloads and iron sights. In chat: `!give weapon_cof_glock` | – | [cof_glock-v1.0.0.zip](https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/cof_glock-v1.0.0/cof_glock-v1.0.0.zip) |
+| Cry of Fear vehicle pack 1.0.0 | Aud, Vari, Foretag, police car and fire engine, with physical wheels. Imports its models from your own Cry of Fear install. | `sandbox` (comes with the game), Cry of Fear on Steam | [cof_vehicles-v1.0.0.zip](https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/cof_vehicles-v1.0.0/cof_vehicles-v1.0.0.zip) |
 
-The first version uses a browser-based GitHub form. It does not yet upload directly from inside the game. An in-game Submit button can open this link later.
+Every download is also on the [Releases](https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases) page.
 
-## Download and install
+## How to install
 
-Approved versions are listed in `catalog.json` and distributed as GitHub Release ZIP assets. Extract a ZIP into `Half-Life/hl_lua/`. Restart/reload the game as the addon requires. The planned Installed/Available Mods menu is not implemented yet.
+1. Download the addon's ZIP.
+2. Close Half-Life.
+3. Open your Half-Life folder (in Steam: right-click Half-Life > Manage > Browse local files) and go into `hl_lua`.
+4. Extract the ZIP there. Each ZIP contains an `addons` folder, so the addon lands in the right place:
 
-ZIP layout:
+   ```
+   Half-Life\hl_lua\addons\<addon name>\addon.json
+   ```
+
+   If you end up with `addons\addons\...` or `addons\<name>\<name>\...`, move the folder up one level.
+5. Start Half-Life: Lua.
+
+**Disable** an addon: open `addons\<addon name>\addon.json` and set `"enabled": false`.
+**Remove** an addon: delete its `addons\<addon name>` folder.
+Restart the game after either change. Install anything listed under "Needs" yourself.
+
+In multiplayer, everyone needs the same addons as the host.
+
+## Making an addon
+
+An addon ZIP should look like this:
 
 ```
 addons/my_weapon/addon.json
 addons/my_weapon/LICENSE.txt
 addons/my_weapon/lua/weapons/weapon_my_weapon.lua
-models/my_weapon/...       (optional)
-sound/my_weapon/...        (optional)
+addons/my_weapon/models/my_weapon/...   (optional)
+addons/my_weapon/sound/my_weapon/...    (optional)
 ```
 
-Use a stable lowercase folder ID and a version such as 1.0.0. Keep custom asset paths namespaced under the addon ID so addons do not overwrite one another. Do not include base-game files, other authors' unlicensed assets, config.cfg, executables, DLLs, saves or credentials. Declare dependencies in addon.json and the submission form.
+Use a lowercase folder name and keep your models and sounds in folders named after the addon so they don't overwrite other addons. Don't include Half-Life's own files, other people's assets you don't have permission to share, DLLs or executables. The Lua API is described in `LUA.md` in your `hl_lua` folder.
 
-## Review and publication
+Want yours listed here? [Submit it](https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/issues/new?template=submit-addon.yml). The owner checks submissions before adding them. Garry's Mod addons don't work without changes.
 
-The owner downloads a submission, inspects its files and tests it in a separate game folder. After approving it, the owner places the ZIP in the local `.owner/approved/` folder. The publisher validates the package as data; it never executes submitted Lua or extracts files. Explicit publish mode uploads a release asset and updates the catalog. It then moves the processed local ZIP to `.owner/published/`.
+Each addon keeps its creator's license.
 
-The publisher is not a malware detector or compatibility guarantee; manual review is required. Do not run submitted scripts on the publishing machine just to inspect them.
-
-Maintainer setup, email configuration and publishing commands: [SETUP.md](SETUP.md).
-
-## Catalog contract
-
-`schema_version: 1`, with an `addons` array. Each approved entry has id, name, author, description, version, dependencies, download_url, sha256 and size_bytes. The library is initially empty. Checksums allow a future game downloader to verify that its download matches the reviewed archive; catalog signature verification and the in-game downloader are separate future work.
-
-Addon licenses are included by their creators. There is no blanket license overriding an author's addon license.
+Maintainer notes: [SETUP.md](SETUP.md).
