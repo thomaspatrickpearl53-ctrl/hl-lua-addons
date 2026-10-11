@@ -38,6 +38,17 @@
       "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/detailed_van-v1.0.0/detailed_van-v1.0.0.zip",
       "sha256": "c2258c8b82acc8b28b0e3b403e64f70ecd434cc27bed9883d4dc991e86ecfe68",
       "size_bytes": 326588
+    },
+    {
+      "id": "firstperson_body",
+      "name": "First-person body",
+      "author": "Half-Life: Lua",
+      "description": "See your own body and legs in first person: walks, runs, crouches, jumps and turns in place, with the head hidden and the arms hidden while you hold a weapon. Settings in lua_settings.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/firstperson_body-v1.0.0/firstperson_body-v1.0.0.zip",
+      "sha256": "2eb2023bc9d73179579b167a8cfa5a5fd5b6ba73f84f19b0a50e902b42de03a5",
+      "size_bytes": 3795
     }
   ]
 }
