@@ -40,6 +40,17 @@
       "size_bytes": 326588
     },
     {
+      "id": "example_chat_commands",
+      "name": "Example: chat commands",
+      "author": "Half-Life: Lua",
+      "description": "!heal, !give <item> and !spawn <entity> in chat.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/example_chat_commands-v1.0.0/example_chat_commands-v1.0.0.zip",
+      "sha256": "d952fd49c0303772d95f15376b4b01a1772dd8029c5c62c7847fcfa074534d4e",
+      "size_bytes": 3279
+    },
+    {
       "id": "firstperson_body",
       "name": "First-person body",
       "author": "Half-Life: Lua",
