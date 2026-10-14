@@ -84,6 +84,17 @@
       "size_bytes": 1699
     },
     {
+      "id": "example_movement",
+      "name": "Example: movement abilities",
+      "author": "Half-Life: Lua",
+      "description": "Double jump, wall jump and higher jumps (predicted, no stutter). Type example_movement 1 in the console.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/example_movement-v1.0.0/example_movement-v1.0.0.zip",
+      "sha256": "599cfb5955cf9ede6d75042b14532b0857524f02560b0b6975117097df18f068",
+      "size_bytes": 2090
+    },
+    {
       "id": "firstperson_body",
       "name": "First-person body",
       "author": "Half-Life: Lua",
