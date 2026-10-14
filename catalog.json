@@ -117,6 +117,19 @@
       "size_bytes": 5121
     },
     {
+      "id": "example_uses_library",
+      "name": "Example: uses a library",
+      "author": "Half-Life: Lua",
+      "description": "Uses ExampleLibrary from example_library. Type example_hello in the console.",
+      "version": "1.0.0",
+      "dependencies": [
+        "example_library"
+      ],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/example_uses_library-v1.0.0/example_uses_library-v1.0.0.zip",
+      "sha256": "b5ba23ce4d937556473cb0f149125224d8343dfa97c8096517b0163ce3baa196",
+      "size_bytes": 1790
+    },
+    {
       "id": "firstperson_body",
       "name": "First-person body",
       "author": "Half-Life: Lua",
