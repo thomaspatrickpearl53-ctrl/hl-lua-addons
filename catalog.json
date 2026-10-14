@@ -145,11 +145,11 @@
       "name": "First-person body",
       "author": "Half-Life: Lua",
       "description": "See your own body and legs in first person: walks, runs, crouches, jumps and turns in place, with the head hidden and the arms hidden while you hold a weapon. Settings in lua_settings.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "dependencies": [],
-      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/firstperson_body-v1.0.0/firstperson_body-v1.0.0.zip",
-      "sha256": "2eb2023bc9d73179579b167a8cfa5a5fd5b6ba73f84f19b0a50e902b42de03a5",
-      "size_bytes": 3795
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/firstperson_body-v1.0.1/firstperson_body-v1.0.1.zip",
+      "sha256": "401f89fbb3b6dafa70187f839e9030d5e5797284309be67ce88a44669115a8a6",
+      "size_bytes": 3914
     },
     {
       "id": "hl2_flashlight",
