@@ -196,6 +196,17 @@
       "size_bytes": 17885
     },
     {
+      "id": "lua_vehicles",
+      "name": "Lua vehicle base",
+      "author": "Half-Life: Lua",
+      "description": "One base for tanks, cars and motorbikes: raycast suspension on every wheel, steered wheels, self-balancing bikes that lean into turns, skid-steering tracks, optional turrets and guns, seated riders, spinning and steering wheels, damage and wrecks. Vehicles are separate addons; console lua_vehicle_spawn.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/lua_vehicles-v1.0.0/lua_vehicles-v1.0.0.zip",
+      "sha256": "91e4fd5397a5b14b9f02de9cf811bf03374bfad42ae901194ba77a3abd4245c6",
+      "size_bytes": 27252
+    },
+    {
       "id": "meadow_tower_night",
       "name": "Meadow Tower: Night",
       "author": "Half-Life: Lua",
