@@ -266,11 +266,11 @@
       "name": "GoldSrc Sandbox",
       "author": "Half-Life: Lua",
       "description": "89 physical props, material impacts, destructibles, explosive drums, ammo pickups, car sounds and crash explosions, physgun cars, NPC barriers, thrusters, motors, construction saves/dupes. Host enables sandbox.",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "dependencies": [],
-      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/sandbox-v1.6.0/sandbox-v1.6.0.zip",
-      "sha256": "35a23eaf30861010752aa599e019b7fa26e2edaa71bff6a2b0cdfd63cd9c14ca",
-      "size_bytes": 1518310
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/sandbox-v1.6.1/sandbox-v1.6.1.zip",
+      "sha256": "7a78a5faa8761356193c3d7678322620390bf513cac07d188c8bf45e60a963f6",
+      "size_bytes": 1520384
     }
   ]
 }
