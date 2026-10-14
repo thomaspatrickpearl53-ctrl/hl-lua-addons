@@ -130,6 +130,17 @@
       "size_bytes": 1790
     },
     {
+      "id": "example_vehicle",
+      "name": "Example: custom car (go-kart)",
+      "author": "Half-Life: Lua",
+      "description": "A one-seat go-kart with its own models, wheel layout and handling, added to the sandbox Vehicles tab. Copy this folder to start your own car.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/example_vehicle-v1.0.0/example_vehicle-v1.0.0.zip",
+      "sha256": "405035229ae7e0f243dbe8289fa6116faf89443238938a0884b5dab483bc8571",
+      "size_bytes": 103018
+    },
+    {
       "id": "firstperson_body",
       "name": "First-person body",
       "author": "Half-Life: Lua",
