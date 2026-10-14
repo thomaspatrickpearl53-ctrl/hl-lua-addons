@@ -106,6 +106,17 @@
       "size_bytes": 4154
     },
     {
+      "id": "example_scripted",
+      "name": "Example: scripted entity and weapons",
+      "author": "Half-Life: Lua",
+      "description": "sent_health_orb (a floating health pickup), weapon_lua_smg and weapon_lua_scattergun, all in Lua. Try !spawn sent_health_orb or !give weapon_lua_smg.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/example_scripted-v1.0.0/example_scripted-v1.0.0.zip",
+      "sha256": "6ed9f389a2d8c31f96f5cc72c4897e47288b6a1b72fdc4005e1b3ec4a8bd5f05",
+      "size_bytes": 5121
+    },
+    {
       "id": "firstperson_body",
       "name": "First-person body",
       "author": "Half-Life: Lua",
