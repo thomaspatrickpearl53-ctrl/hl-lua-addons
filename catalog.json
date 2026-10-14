@@ -240,6 +240,17 @@
       "size_bytes": 9783
     },
     {
+      "id": "ragdolls",
+      "name": "Ragdolls",
+      "author": "Half-Life: Lua",
+      "description": "Physics ragdolls for human characters: NPCs and players fall as ragdolls when they die (ragdoll_npcs, ragdoll_players), and ragdoll_spawn <model> spawns one. 11 jointed parts with shoulder, hip and neck ball joints and elbow and knee hinges; the character's model is posed on them.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/ragdolls-v1.0.0/ragdolls-v1.0.0.zip",
+      "sha256": "532e6b363100addd54d13c1709e2d9d21c853e181bb145fd32b3cd9bfcb282de",
+      "size_bytes": 16347
+    },
+    {
       "id": "realistic_graphics",
       "name": "Realistic Graphics",
       "author": "Half-Life: Lua",
