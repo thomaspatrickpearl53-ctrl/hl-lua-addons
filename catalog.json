@@ -51,6 +51,17 @@
       "size_bytes": 3279
     },
     {
+      "id": "example_graphics",
+      "name": "Example: graphics mod (colour grading)",
+      "author": "Half-Life: Lua",
+      "description": "A GLSL post-processing shader: colour grading, vignette, sharpening and depth haze, with settings in lua_settings. Copy it to start your own graphics mod.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/example_graphics-v1.0.0/example_graphics-v1.0.0.zip",
+      "sha256": "2dedaa8410be555694826ae3641c3bd1a056c7018a1bf0936358be2bd8a54a5b",
+      "size_bytes": 2857
+    },
+    {
       "id": "firstperson_body",
       "name": "First-person body",
       "author": "Half-Life: Lua",
