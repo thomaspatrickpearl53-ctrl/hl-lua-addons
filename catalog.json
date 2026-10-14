@@ -95,6 +95,17 @@
       "size_bytes": 2090
     },
     {
+      "id": "example_net",
+      "name": "Example: client Lua and net",
+      "author": "Half-Life: Lua",
+      "description": "A welcome message from the server, example_ping (round trip time), and a kill counter kept with networked variables.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/example_net-v1.0.0/example_net-v1.0.0.zip",
+      "sha256": "27e254b2ce8e0105a65ff40acb5aa9c6b22aa8c0912b1dad1094edacd1da2431",
+      "size_bytes": 4154
+    },
+    {
       "id": "firstperson_body",
       "name": "First-person body",
       "author": "Half-Life: Lua",
