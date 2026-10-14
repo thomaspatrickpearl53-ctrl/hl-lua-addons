@@ -207,6 +207,17 @@
       "size_bytes": 27252
     },
     {
+      "id": "meadow_elevator",
+      "name": "Meadow Tower Elevator",
+      "author": "Half-Life: Lua",
+      "description": "Meadow Tower elevator secret, HEV purge cabinet, observation chamber and map details.",
+      "version": "1.8.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/meadow_elevator-v1.8.0/meadow_elevator-v1.8.0.zip",
+      "sha256": "58daabc32ce05fec412d9ac529c5d76a9af71655b0b4bb75f2111f307aa60c12",
+      "size_bytes": 78274
+    },
+    {
       "id": "meadow_tower_night",
       "name": "Meadow Tower: Night",
       "author": "Half-Life: Lua",
