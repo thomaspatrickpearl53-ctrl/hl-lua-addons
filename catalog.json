@@ -152,6 +152,17 @@
       "size_bytes": 3914
     },
     {
+      "id": "hide_and_seek",
+      "name": "Hide and seek",
+      "author": "Half-Life: Lua",
+      "description": "Infection hide and seek for multiplayer. Hiders get a head start while the seekers are blindfolded; a seeker touching a hider turns them into a seeker. Last hiders standing when time runs out win. Host: hns_start / hns_stop (or !hns start / !hns stop in chat).",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/hide_and_seek-v1.0.0/hide_and_seek-v1.0.0.zip",
+      "sha256": "33fed50d539a6526272547e15d7f8268c99fedeb49d06f9f727f40615b22f5c3",
+      "size_bytes": 117079
+    },
+    {
       "id": "hl2_flashlight",
       "name": "Half-Life 2 flashlight",
       "author": "Half-Life: Lua",
