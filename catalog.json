@@ -229,6 +229,17 @@
       "size_bytes": 1220226
     },
     {
+      "id": "player_models",
+      "name": "Player models",
+      "author": "Half-Life: Lua",
+      "description": "Garry's Mod style player models: pick yours from a menu (playermodel_menu, or Player model in the sandbox menu) and everyone sees it, in single player too. Finds every model in models/player/, and addons add more with player_manager.AddValidModel.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/player_models-v1.0.0/player_models-v1.0.0.zip",
+      "sha256": "c2bd3226f3a5e6053559d647873f23c450f78c0e85cbd82afd22390b83ecd4d2",
+      "size_bytes": 9783
+    },
+    {
       "id": "realistic_graphics",
       "name": "Realistic Graphics",
       "author": "Half-Life: Lua",
