@@ -62,6 +62,17 @@
       "size_bytes": 2857
     },
     {
+      "id": "example_hud",
+      "name": "Example: custom HUD and menu",
+      "author": "Half-Life: Lua",
+      "description": "A Lua HUD (health, armor, ammo, names over heads) and a menu window. Type example_hud 1 and example_menu in the console.",
+      "version": "1.0.0",
+      "dependencies": [],
+      "download_url": "https://github.com/thomaspatrickpearl53-ctrl/hl-lua-addons/releases/download/example_hud-v1.0.0/example_hud-v1.0.0.zip",
+      "sha256": "a1585ead4990f3655d49b7919b3fd78da71899f93b5f9f52eb7f8bfe2ea53345",
+      "size_bytes": 4264
+    },
+    {
       "id": "firstperson_body",
       "name": "First-person body",
       "author": "Half-Life: Lua",
